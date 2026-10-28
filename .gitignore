@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & Google Colab artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.colab/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Model weights, datasets, & large files
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+*.parquet
+*.csv
+*.tsv
+
+# Image uploads & outputs generated during runs
+*.png
+*.jpg
+*.jpeg
+*.gif
+!**/assets/*.png
+!**/assets/*.jpg
+
+# C / Embedded C build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.hex
+*.bin
+*.elf
+*.d
+build/
+dist/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configs
+.vscode/
+.idea/
