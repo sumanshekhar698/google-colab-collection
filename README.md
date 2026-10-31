@@ -6,6 +6,18 @@
 
 A structured collection of hands-on Google Colab notebooks, reproducible experiments, implementations, and code walkthroughs spanning Generative AI, Deep Learning, Data Engineering, and Embedded Systems.
 
+python -m pip install -r requirements.txt
+python -m pip uninstall -y pandas
+python -m pip list
+python -m pip show numpy
+
+Syntax	Meaning	Example
+numpy==2.2.0	Exact version only	numpy==2.2.0
+numpy>=2.0	Version 2.0 or newer	numpy>=2.0
+numpy<3.0	Any version below 3.0	numpy<3.0
+numpy>=2.0,<3.0	Version range	numpy>=2.0,<3.0
+matplotlib~=3.10.0	Compatible release, normally 3.10.x	matplotlib~=3.10.0
+
 ---
 
 ## 📂 Repository Structure

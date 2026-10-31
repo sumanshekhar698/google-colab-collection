@@ -1,0 +1,5 @@
+ipykernel
+jupyterlab
+# pandas>=2.2,<4.0
+# numpy>=2.0,<3.0
+# matplotlib>=3.10,<4.0

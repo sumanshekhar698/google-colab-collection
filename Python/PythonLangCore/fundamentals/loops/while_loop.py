@@ -1,0 +1,10 @@
+count = 10
+
+while count > 0:
+    print(count)
+    count -= 1 # short hand operator
+    # count = count - 1 # long hand operator
+
+print()
+print(count)
+print("Blast off!")
