@@ -14,3 +14,7 @@ print(10 % 3)  # 1
 print(5 ** 3) # 125 = 5^3
 
 print(-10 // 3)  # -4 because -10 / 3 = -3.333..., and floor division rounds down to the nearest whole number, which is -4.
+
+# x= 9
+# print(++x)  # False, because 9 is odd
+# print(x)  # True, because 9 is odd

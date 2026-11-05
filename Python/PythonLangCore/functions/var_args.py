@@ -15,6 +15,7 @@ print(sum1)
 
 def total_sum2(num, *numbers):
     """Function to calculate the sum of any number of arguments."""
+    print(num)
     print(type(numbers))
     return sum(numbers)
 

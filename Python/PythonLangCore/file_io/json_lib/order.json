@@ -1,0 +1,14 @@
+{
+  "orderNumber": 10100,
+  "customer": "Online Diecast Creations Co.",
+  "lines": [
+    {
+      "product": "S18_1749",
+      "qty": 30
+    },
+    {
+      "product": "S18_2248",
+      "qty": 50
+    }
+  ]
+}
