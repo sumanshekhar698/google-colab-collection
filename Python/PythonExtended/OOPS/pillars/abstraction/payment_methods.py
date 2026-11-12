@@ -34,6 +34,19 @@ class UPI(PaymentMethod):
     def refund(self, amount):
         return f"refund processed to UPI of amount {amount}"
 
+
+class BasePayment(PaymentMethod):
+    def pay(self,amount):
+        return f"PAID {amount:,.2f}"
+
+    @abstractmethod
+    def refund(self, amount):
+        """TODO"""
+
+class UPIRefundPayment(BasePayment):
+    def refund(self, amount):
+        return f"Refunded {amount} via UPI"
+
 class Incomplete(PaymentMethod):
     def pay(self,amount):
         return f"PAID {amount:,.2f}"
@@ -56,3 +69,8 @@ print()
 # incmplete = Incomplete()
 # print(incmplete.pay(500))
 # print(incmplete.refund(500))
+
+
+# pp = BasePayment()
+upi_refund = UPIRefundPayment()
+
