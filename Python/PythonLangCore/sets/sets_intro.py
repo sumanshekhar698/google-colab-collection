@@ -14,7 +14,7 @@ empty_set = {}
 print(type(empty_set))  # Output: <class 'dict'> (this is an empty dictionary, not a set)
 
 empty_set_correct = set()  # Correct way to create an empty set
-print(type(empty_set_correct))  # Output: <class 'set'> (this is an
+print(type(empty_set_correct))  # Output: <class 'set'>
 
 empty_set_correct.add(10)  # Adding an element to the set
 empty_set_correct.update(s)  # Adding elements from another set
